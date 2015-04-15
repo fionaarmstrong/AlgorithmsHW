@@ -35,13 +35,13 @@ public class ResizeDemo {
         for (int i = 0; i < removeRows; i++) {
         	System.out.println("horizontalSeam");
             int[] horizontalSeam = sc.findHorizontalSeam();
-            //sc.removeHorizontalSeam(horizontalSeam);
+            sc.removeHorizontalSeam(horizontalSeam);
         }
 
         for (int i = 0; i < removeColumns; i++) {
         	System.out.println("verticalSeam");
             int[] verticalSeam = sc.findVerticalSeam();
-            //sc.removeVerticalSeam(verticalSeam);
+            sc.removeVerticalSeam(verticalSeam);
         }
         Picture outputImg = sc.picture();
 

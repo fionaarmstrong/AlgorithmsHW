@@ -15,7 +15,7 @@ public class ShowEnergy {
         System.out.println("Colors");
         for (int i = 0; i < sc.height(); i++) {
             for (int j = 0; j < sc.width(); j++)
-                System.out.print(sc.get(j, i) + " ");
+                //System.out.print(sc.get(j, i) + " ");
             System.out.println();
         }
         

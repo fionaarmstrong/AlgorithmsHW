@@ -44,12 +44,12 @@ public class SeamCarver {
 		}
 	}
 
-	/**
-	 * For unit test
-	 */
-	public Color get(int i, int j) {
-		return colors.get(i).get(j);
-	}
+//	/**
+//	 * For unit test
+//	 */
+//	public Color get(int i, int j) {
+//		return colors.get(i).get(j);
+//	}
 
 	/**
 	 * current picture

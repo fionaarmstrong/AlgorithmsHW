@@ -31,3 +31,4 @@ target/
 *.ipr
 *.iws
 target
+/bin/

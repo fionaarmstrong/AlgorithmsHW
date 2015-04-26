@@ -56,6 +56,6 @@ public class FlowEdge {
 	
 	@Override
 	public String toString() {
-		return "";
+		return v + "->" + w + " " + flow + "/" + capacity;
 	}
 }

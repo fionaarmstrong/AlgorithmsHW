@@ -23,9 +23,9 @@ public class ResizeDemo {
       //Picture inputImg = new Picture(args[0]);
 //    	int removeColumns = Integer.parseInt(args[1]);
 //      int removeRows = Integer.parseInt(args[2]);
-    	Picture inputImg = new Picture("HJocean.png");
-    	int removeColumns = Integer.parseInt("1");
-        int removeRows = Integer.parseInt("1");
+    	Picture inputImg = new Picture("snowball.png");
+    	int removeColumns = Integer.parseInt("0");
+        int removeRows = Integer.parseInt("400");
 
         System.out.printf("image is %d columns by %d rows\n", inputImg.width(), inputImg.height());
         SeamCarver sc = new SeamCarver(inputImg);
